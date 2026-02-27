@@ -47,7 +47,7 @@ body {
 
 .column2 {
   background-color: gray;
-  flex-grow: 1;
+  flex: 1 1 0;
   height: 50px;
   border: 2px solid black;
 }
