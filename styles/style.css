@@ -45,12 +45,14 @@ body {
   height: 50px;
 }
 
-#column2 {
+.column2 {
+  background-color: gray;
+  flex-grow: 1;
+  height: 50px;
   border: 2px solid black;
 }
 
 #column3 {
-    border: 2px solid black;
     grid-column: span 4;
 }
 
